@@ -1,0 +1,33 @@
+# Creative Question
+
+  a) My first creative question was: "How does investment in the Baja 
+     California, MX (Tijuana, Mexicali, Ensenada) region 
+     affect the exports and labor markets in Southern California?". 
+
+	 I wanted to better understand the relationship between Southern California and
+	 the Baja region; whether investment in Baja resulted in economic growth in 
+	 Southern California or if it resulted in the opposite effect, maybe a strong 
+	 Baja region resulted in less dependence on exports (in services and manufacturing) 
+	 from California or maybe it benefits both regions by increasing commerce between 
+	 them.
+	 
+  b) I wasn't able to match it against existing data sets because I couldn't 
+	 find aggregated open data published by the Mexican Gov. related to foreign or local 
+	 investment in such region, maybe it exists in local websites of each govs 
+	 but it's a long shot.
+
+	 Because I was not able to match my original question to an existing data set, 
+	 I pivoted to the following one: "How effective is the Californian population 
+	 in addressing future market needs?", I want to determine whether 
+	 entreprenurial californians are pursuing the right opportunities, I decided
+	 to pair such question with the following dataset: 
+	 
+	   1. https://data.ca.gov/dataset/regional-economic-analysis-profiles
+	   2. https://www.census.gov/programs-surveys/geography/geographies/reference-maps.html
+
+  c) I think that the chosen data set addresses projected areas of growth in terms
+    of investment and employment. I think it's a good starting data set, as it provides
+	past forecasts and I could pair such forecasts with the data tha contains the businesses
+	that were created after such forecasts were published I would also pair it with
+	information from the Census Bureau with businesses created and closed during a 
+	specific period of time.

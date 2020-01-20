@@ -10,10 +10,11 @@ args <- commandArgs(trailingOnly=TRUE)
 
 # rootPathVar <- "/Users/ael-annan/Desktop/Storage/MveMveMve/UCLAInstructor/Summer2018-361188-Introduction to Data Science COM SCI X 450.1/Module 1/Module 1a/"
 rootPathVar <- args[1]
-valentineTreats <- read.csv(paste(rootPathVar,"ValentinesTreats.csv",  sep=""), header = TRUE)
+valentineTreats <- read.csv(paste(rootPathVar, "ValentinesTreats.csv", sep = ""), header = TRUE)
 
 ####### Data Inspection
 #Inspect/characterize data
+print("--- Summary ---")
 dim(valentineTreats)
 summary(valentineTreats)
 
