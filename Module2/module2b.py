@@ -4,7 +4,7 @@
 # UCLA: Introduction to Data Science
 #
 
-# A) Variables, types and casting
+print('# A) Variables, types and casting')
 # Unlike other languages like javascript, python does not implicitly cast
 # objects into strings when using the '+' operator with strings.
 # One must cast any non-str objects into strings
@@ -14,8 +14,8 @@ r = str(a) + b
 
 print(r)
 
-#B) Create a list of integers, strings, i.e. someList = [3, ' S', 'B', 21]
-# Separate the list into one of only strings, and one of only intergers.
+print("""# B) Create a list of integers, strings, i.e. someList = [3, ' S', 'B', 21]
+# Separate the list into one of only strings, and one of only intergers.""")
 
 mix_list = [3, 'S', 'B', 21, 99, 78, 'aa', 'xx']
 
@@ -36,9 +36,9 @@ strs = [x for x in mix_list if type(x) is str]
 print(ints)
 print(strs)
 
-# C) Compare and contrast the data structure from the official Python list of 
+print("""C) Compare and contrast the data structure from the official Python list of 
 # data structures (i.e. tuples, dicts, lists), i.e. Tuples are the ONLY 
-# immutable data structure (there are lists, tuples, sets, dictionaries)
+# immutable data structure (there are lists, tuples, sets, dictionaries)""")
 
 # Lists
 # Lists allow us to have a heterogenous sequence of elements, elements 
@@ -77,8 +77,8 @@ empty_dict = {}
 my_tuple = (1, 2, 3, 'a', 'b', 'c')
 empty_tuple = ()
 
-# D) Compare and contrast some Python specialized data types/objects 
-# (please select at least a minimum of 2 items, i.e. datetime, collections)
+print("""# D) Compare and contrast some Python specialized data types/objects 
+# (please select at least a minimum of 2 items, i.e. datetime, collections)""")
 
 # Datetime, Timedelta
 # Manupilating dates and computing differences between them is a common task 
@@ -127,8 +127,8 @@ class OperationMode(Enum):
 
 print(OperationMode.PRODUCTION)
 
-# E) Write a function that separates out the negative and positive integers in 
-# a list, i.e. someList = [3,-3, 4, -5]
+print("""# E) Write a function that separates out the negative and positive integers in 
+# a list, i.e. someList = [3,-3, 4, -5]""")
 
 def split_sign(numbers, exclude_zero=False):
 	"""Splits a list of numbers by their sign"""
