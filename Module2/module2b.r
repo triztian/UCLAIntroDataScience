@@ -33,8 +33,7 @@ split_types <- function(dataFrame) {
 
 	data.frame(nums=a, strs=b)
 }
-splitData <- split_types(myData)
-print(splitData)
+print(split_types(myData))
 
 print('C) Create a function that computes the fibonacci sequence')
 # https://en.wikipedia.org/wiki/Fibonacci_number
